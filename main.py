@@ -9,6 +9,6 @@ for n in range(0, len(student_heights)):
 total = 0
 for n in range(0, len(student_heights)):
   total += student_heights[n]
-  
-print(total)
+avg = round(total / len(student_heights))
+print(avg)
 
